@@ -1,0 +1,251 @@
+/* reset -------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+ul {
+  list-style:none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* common -------------------------------------------- */
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #CCCCCC;
+}
+
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left : auto;
+  margin-right : auto;
+  width: 960px;
+}
+
+.header-left {
+  display: flex;
+}
+
+.header-left a img {
+  display: block;
+  width: 300px;
+}
+
+.header-left form {
+  align-self: flex-end;
+  padding: 0 0 10px 0;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-right p {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+.header-right ul {
+  display: flex;
+}
+
+.cart {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  background-image: url(../images/cart.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  padding: 5px 0 10px 40px;
+}
+
+.login {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 20px;
+  padding: 5px 0 10px 0;
+}
+
+.logout {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 20px;
+  padding: 5px 0 10px 0;
+}
+
+.orders {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 20px;
+  padding: 5px 0 10px 0;
+}
+
+.header-right p {
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+
+main {
+  margin-left : auto;
+  margin-right : auto;
+  margin-top: 20px;
+  width: 700px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+
+.err_msg {
+  color: #ff0000;
+}
+
+/* top page -------------------------------------------- */
+
+.main_itemlist ul {
+  display: flex;
+  align-items: center;
+}
+
+.main_itemlist li:last-child {
+  margin-left: auto;
+}
+
+.main_itemlist img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin:0 10px 0 0;
+}
+
+.main_itemlist .center p {
+  margin-bottom: 20px;
+}
+
+.sort {
+  margin-bottom: 20px;
+}
+
+/* cart page -------------------------------------------- */
+
+.main_cart ul {
+  display: flex;
+  align-items: center;
+}
+
+.main_cart li:last-child {
+  margin-left: auto;
+}
+
+.main_cart img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin:0 10px 0 0;
+}
+
+.main_cart .center p {
+  margin-bottom: 20px;
+}
+
+.quantity {
+  width: 50px;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+}
+
+.place_your_order {
+  text-align: right;
+}
+
+/* history page -------------------------------------------- */
+
+.main_history ul {
+  display: flex;
+  align-items: center;
+}
+
+.main_history img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin:0 10px 0 0;
+}
+
+.main_history div {
+  display: flex;
+  flex-direction: column;
+}
+
+.create_datetime {
+  color:#999999;
+}
+
+/* finish page -------------------------------------------- */
+
+.main_finish ul {
+  display: flex;
+  align-items: center;
+}
+
+.main_finish li:last-child {
+  margin-left: auto;
+}
+
+.main_finish img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin:0 10px 0 0;
+}
+
+.main_finish .center p {
+  margin-bottom: 20px;
+}
+
+.total {
+  text-align: right;
+  font-weight: bold;
+}
